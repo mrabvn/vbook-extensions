@@ -12,7 +12,7 @@ function execute(url) {
     url = url.replace("nettruyenon.com", "nettruyentv.com");
     url = url.replace("nettruyentv.com", "nettruyenmin.com");
     url = url.replace("nettruyenmin.com", "nettruyenking.com");
-    url = url.replace("nettruyenking.com", "nettruyen.live");
+    url = url.replace("nettruyenking.com", "nettruyenvi.com");
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -26,7 +26,7 @@ function execute(url) {
             author: doc.select(".author a").first().text(),
             description: doc.select(".detail-content p").html(),
             detail: doc.select(".list-info").html(),
-            host: "https://www.nettruyen.live",
+            host: "https://www.nettruyenvi.com",
             ongoing: doc.select(".detail-info .status").html().indexOf("Đang tiến hành") >= 0
         });
     }
