@@ -12,7 +12,7 @@ function execute(url) {
     url = url.replace("nettruyenon.com", "nettruyentv.com");
     url = url.replace("nettruyentv.com", "nettruyenmin.com");
     url = url.replace("nettruyenmin.com", "nettruyenking.com");
-    url = url.replace("nettruyen.live", "nettruyen.dev");
+    url = url.replace("nettruyenking.com", "nettruyen.live");
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
