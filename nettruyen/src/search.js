@@ -1,7 +1,7 @@
 function execute(key, page) {
     if (!page) page = '1';
 
-    let response = fetch("https://www.nettruyenking.com/tim-truyen", {
+    let response = fetch("https://www.nettruyen.live/tim-truyen", {
         method: "GET",
         queries: {"keyword": key, "page": page}
     });
@@ -21,7 +21,7 @@ function execute(key, page) {
                 link: e.select("h3 a").first().attr("href"),
                 cover: coverImg,
                 description: e.select(".chapter a").first().text(),
-                host: "https://www.nettruyenking.com"
+                host: "https://www.nettruyen.live"
             });
         });
 
