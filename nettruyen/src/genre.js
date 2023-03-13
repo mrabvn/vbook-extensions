@@ -1,5 +1,5 @@
 function execute() {
-    let response = fetch("https://www.nettruyen.live/tim-truyen");
+    let response = fetch("https://www.nettruyenvi.com/tim-truyen");
     if (response.ok) {
         let doc = response.html();
         let genres = [];
