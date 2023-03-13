@@ -12,6 +12,7 @@ function execute(url) {
     url = url.replace("nettruyenon.com", "nettruyentv.com");
     url = url.replace("nettruyentv.com", "nettruyenmin.com");
     url = url.replace("nettruyenmin.com", "nettruyenking.com");
+    url = url.replace("nettruyen.live", "nettruyen.dev");
     let response = fetch(url);
 
     if (response.ok) {
@@ -23,7 +24,7 @@ function execute(url) {
             data.push({
                 name: e.text(),
                 url: e.attr("href"),
-                host: "https://www.nettruyenking.com"
+                host: "https://www.nettruyen.live"
             })
         }
         return Response.success(data);
