@@ -9,10 +9,10 @@
       "name": "Net Truyện",
       "author": "MrAB copy vBook",
       "path": "https://raw.githubusercontent.com/mrabvn/vbook-extensions-mrabv/master/nettruyen/plugin.zip",
-      "version": 17,
+      "version": 18,
       "type": "comic",
       "locale": "vi_VN",
-      "source": "https://www.nettruyen.live",
+      "source": "https://www.nettruyenvi.com/",
       "icon": "https://raw.githubusercontent.com/mrabvn/vbook-extensions-mrabv/master/nettruyen/icon.png",
       "description": "Đọc truyện trên trang Net Truyện"
     },
@@ -29,12 +29,12 @@
    
     {
       "name": "HentaiVN",
-      "author": "vBook",
+      "author": "MrAB copy vBook",
       "path": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/hentaivn/plugin.zip",
-      "version": 13,
+      "version": 14,
       "type": "comic",
       "locale": "vi_VN",
-      "source": "https://hentaivn.de",
+      "source": "https://hentaivn.tv",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/hentaivn/icon.png",
       "description": "Đọc truyện trên trang HentaiVN",
       "tag": "nsfw"
